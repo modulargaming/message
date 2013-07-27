@@ -28,7 +28,7 @@ class MG_Controller_Message_View extends Abstract_Controller_Message {
 			$message->save();
 		}
 
-		if ( $message->sent)
+		if ($message->sent)
 		{
 			$message->sender = $message->receiver;
 		}
