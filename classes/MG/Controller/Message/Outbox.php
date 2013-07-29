@@ -1,6 +1,13 @@
 <?php defined('SYSPATH') OR die('No direct script access.');
-
-
+/**
+ * Controller for Message Outbox
+ *
+ * @package    MG/Message
+ * @category   Controller
+ * @author     Modular Gaming
+ * @copyright  (c) 2013 Modular Gaming Team
+ * @license    BSD http://modulargaming.com/license
+ */
 class MG_Controller_Message_Outbox extends Abstract_Controller_Message {
 
 	public function action_index()

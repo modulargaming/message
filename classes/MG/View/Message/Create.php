@@ -1,5 +1,13 @@
 <?php defined('SYSPATH') OR die('No direct script access.');
-
+/**
+ * View for Message Create
+ *
+ * @package    MG/Message
+ * @category   View
+ * @author     Modular Gaming
+ * @copyright  (c) 2013 Modular Gaming Team
+ * @license    BSD http://modulargaming.com/license
+ */
 class MG_View_Message_Create extends Abstract_View_Message {
 
 	public $title = 'Create Message';

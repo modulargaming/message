@@ -2,9 +2,9 @@
 /**
  * Abstract base view for Messages.
  *
- * @package    MG Message
+ * @package    MG/Message
  * @category   View
- * @author     Modular Gaming Team
+ * @author     Modular Gaming
  * @copyright  (c) 2013 Modular Gaming Team
  * @license    BSD http://modulargaming.com/license
  */
