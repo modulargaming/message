@@ -5,8 +5,8 @@
  * @package    MG/Message
  * @category   Controller
  * @author     Modular Gaming
- * @copyright  (c) 2013 Modular Gaming Team
- * @license    BSD http://modulargaming.com/license
+ * @copyright  (c) 2013 Modular Gaming
+ * @license    BSD http://www.modulargaming.com/license
  */
 class MG_Controller_Message_Index extends Abstract_Controller_Message {
 

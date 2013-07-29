@@ -5,8 +5,8 @@
  * @package    MG/Message
  * @category   Model
  * @author     Modular Gaming
- * @copyright  (c) 2013 Modular Gaming Team
- * @license    BSD http://modulargaming.com/license
+ * @copyright  (c) 2013 Modular Gaming
+ * @license    BSD http://www.modulargaming.com/license
  */
 class MG_Model_Message extends ORM
 {
