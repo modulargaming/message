@@ -26,7 +26,7 @@ class MG_Controller_Message_Create extends Abstract_Controller_Message {
 
 				if ( ! $receiver->loaded())
 				{
-					throw HTTP_Exception::Factory('404', 'No such user');
+					return Hint::error('Cannot find a user with the username: '.$username);
 				}
 				elseif ($this->user->id === $receiver->id)
 				{
