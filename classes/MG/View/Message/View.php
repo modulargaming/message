@@ -43,8 +43,8 @@ class MG_View_Message_View extends Abstract_View_Message {
 	{
 		return array(
 			'reply' => Route::url('message.create', array(
-				'action' => 'index',
-				'id'     => $this->message->sender->id
+				'action'   => 'index',
+				'username' => $this->message->sender->username
 			)),
 		);
 	}
